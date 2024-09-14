@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import UseState from './components/UseState'
+import UseEffect from './components/UseEffect'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,6 +11,7 @@ function App() {
       <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/useState' element={<UseState />} />
+          <Route path='/useEffect' element={<UseEffect />} />
 
       </Routes>
     </div>
