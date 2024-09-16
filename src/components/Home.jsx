@@ -10,6 +10,9 @@ function Home() {
       <li>
         <Link to="/useEffect" >useEffect</Link>
       </li>
+      <li>
+        <Link to="/useRef" >useRef</Link>
+      </li>
     </ul>
   )
 }
