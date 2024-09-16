@@ -19,6 +19,9 @@ function Home() {
       <li>
         <Link to="/useCallBack" >useCallBack</Link>
       </li>
+      <li>
+        <Link to="/useContext" >useContext</Link>
+      </li>
     </ul>
   )
 }

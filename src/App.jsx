@@ -6,6 +6,7 @@ import UseEffect from './components/UseEffect'
 import UseRef from './components/UseRef'
 import UseMemo from './components/UseMemo'
 import UseCallBack from './components/UseCallBack'
+import ContextCounter from './components/ContextCounter'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/useRef' element={<UseRef />} />
           <Route path='/useMemo' element={<UseMemo />} />
           <Route path='/useCallBack' element={<UseCallBack />} />
+          <Route path='/useContext' element={<ContextCounter />} />
 
       </Routes>
     </div>
