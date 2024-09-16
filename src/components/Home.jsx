@@ -13,6 +13,9 @@ function Home() {
       <li>
         <Link to="/useRef" >useRef</Link>
       </li>
+      <li>
+        <Link to="/useMemo" >useMemo</Link>
+      </li>
     </ul>
   )
 }
