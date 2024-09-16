@@ -5,6 +5,7 @@ import UseState from './components/UseState'
 import UseEffect from './components/UseEffect'
 import UseRef from './components/UseRef'
 import UseMemo from './components/UseMemo'
+import UseCallBack from './components/UseCallBack'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/useEffect' element={<UseEffect />} />
           <Route path='/useRef' element={<UseRef />} />
           <Route path='/useMemo' element={<UseMemo />} />
+          <Route path='/useCallBack' element={<UseCallBack />} />
 
       </Routes>
     </div>
