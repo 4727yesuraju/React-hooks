@@ -25,6 +25,9 @@ function Home() {
       <li>
         <Link to="/useReducer" >useReducer</Link>
       </li>
+      <li>
+        <Link to="/useLayoutEffect" >useLayoutEffect</Link>
+      </li>
     </ul>
   )
 }

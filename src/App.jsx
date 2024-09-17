@@ -8,6 +8,7 @@ import UseMemo from './components/UseMemo'
 import UseCallBack from './components/UseCallBack'
 import ContextCounter from './components/ContextCounter'
 import UseReducer from './components/useReducer'
+import UseLayoutEffect from './components/UseLayoutEffect'
 function App() {
   return (
     <div  className="flex flex-col items-center justify-center h-screen text-xl">
@@ -20,6 +21,7 @@ function App() {
           <Route path='/useCallBack' element={<UseCallBack />} />
           <Route path='/useContext' element={<ContextCounter />} />
           <Route path='/useReducer' element={<UseReducer />} />
+          <Route path='/useLayoutEffect' element={<UseLayoutEffect />} />
 
       </Routes>
     </div>
