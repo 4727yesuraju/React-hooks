@@ -7,9 +7,8 @@ import UseRef from './components/UseRef'
 import UseMemo from './components/UseMemo'
 import UseCallBack from './components/UseCallBack'
 import ContextCounter from './components/ContextCounter'
+import UseReducer from './components/useReducer'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div  className="flex flex-col items-center justify-center h-screen text-xl">
       <Routes>
@@ -20,6 +19,7 @@ function App() {
           <Route path='/useMemo' element={<UseMemo />} />
           <Route path='/useCallBack' element={<UseCallBack />} />
           <Route path='/useContext' element={<ContextCounter />} />
+          <Route path='/useReducer' element={<UseReducer />} />
 
       </Routes>
     </div>
