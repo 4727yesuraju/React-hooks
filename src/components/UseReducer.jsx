@@ -10,6 +10,12 @@ function UseReducer() {
             case 'dec' : {
                 return {count : state.count-1}
             }
+            case 'input' : {
+                return {count : action.payload}
+            }
+            defalut : {
+                return {...state}
+            }
          }
     }
     const [state,dispatch] = useReducer(reducer,initialState)
@@ -22,7 +28,7 @@ function UseReducer() {
         <button onClick={()=>dispatch({type : 'dec'})} className="btn">Decrement</button>
         <button onClick={()=>dispatch({type : 'inc'})} className="btn">Increment</button>
       </div>
-
+      <input type="number"  onChange={e=>dispatch({type : 'input',payload : +e.target.value})} className="border-b-2 border-slate-500 outline-none text-center"/>
     </div>
   )
 }
